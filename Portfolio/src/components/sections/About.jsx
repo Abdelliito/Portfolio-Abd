@@ -9,7 +9,6 @@ export const About = () => {
             <div className="max-w-3xl mx-auto px-4">
                 <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center"
                 >
-                    {" "}
                     About Me
 
                 </h2>
@@ -19,10 +18,10 @@ export const About = () => {
                         Driven by a passion for crafting meaningful, real-world web solutions with creativity and clean design.
                     </p>
 
-                    {/* Centered Grid */}
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center place-items-center max-w-2xl mx-auto">
 
-                        {/* Frontend */}
+
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all bg-black/20 w-full">
                             <h3 className="text-xl font-bold mb-4 text-center">Frontend</h3>
                             <div className="flex flex-wrap gap-2 justify-center">
@@ -37,7 +36,7 @@ export const About = () => {
                             </div>
                         </div>
 
-                        {/* Backend */}
+
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all bg-black/20 w-full">
                             <h3 className="text-xl font-bold mb-4 text-center">Backend</h3>
                             <div className="flex flex-wrap gap-2 justify-center">

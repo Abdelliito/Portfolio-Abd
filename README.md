@@ -33,8 +33,8 @@ Installation & Setup
 4. Start development server
    npm run dev
 
-The app will open at:
-http://localhost:5173
+Live-Demo:
+
 
 Build for Production
 npm run build

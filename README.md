@@ -33,8 +33,6 @@ Installation & Setup
 4. Start development server
    npm run dev
 
-Live-Demo:
-https://abds-portfolio.netlify.app/
 
 Build for Production
 npm run build

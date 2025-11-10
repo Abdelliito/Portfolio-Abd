@@ -7,14 +7,14 @@ export const About = () => {
         <section id="about" className="min-h-screen flex items-center justify-center py-20"
         >
             <div className="max-w-3xl mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center"
+                <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-red-500 to-amber-600 bg-clip-text text-transparent text-center"
                 >
                     About Me
 
                 </h2>
 
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                    <p className="text-gray-300 mb-6 text-center">
+                    <p className="text-gray-400 transition-colors text-center">
                         Driven by a passion for crafting meaningful, real-world web solutions with creativity and clean design.
                     </p>
 
@@ -23,12 +23,12 @@ export const About = () => {
 
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all bg-black/20 w-full">
-                            <h3 className="text-xl font-bold mb-4 text-center">Frontend</h3>
+                            <h3 className="text-xl font-bold mb-4 text-red-600 text-center">Frontend</h3>
                             <div className="flex flex-wrap gap-2 justify-center">
                                 {frontendSkills.map((tech) => (
                                     <span
                                         key={tech}
-                                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                                        className="bg-blue-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                                     >
                                         {tech}
                                     </span>
@@ -38,12 +38,12 @@ export const About = () => {
 
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all bg-black/20 w-full">
-                            <h3 className="text-xl font-bold mb-4 text-center">Backend</h3>
+                            <h3 className="text-xl font-bold mb-4 text-red-600 text-center">Backend</h3>
                             <div className="flex flex-wrap gap-2 justify-center">
                                 {backendSkills.map((tech) => (
                                     <span
                                         key={tech}
-                                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                                        className="bg-blue-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                                     >
                                         {tech}
                                     </span>
@@ -56,9 +56,9 @@ export const About = () => {
 
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Education</h3>
-                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                    <div className="p-6 rounded-xl text-center border-white/10 border hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl text-red-600 font-bold mb-4">Education</h3>
+                        <ul className="list-disc list-inside text-gray-400 space-y-2">
                             <li>
                                 <strong>Bs in Computer Science</strong> - University of Management & Technology (2023 - 2027)
                             </li>
@@ -70,9 +70,9 @@ export const About = () => {
                     </div>
 
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Work Experience</h3>
-                        <div className="space-y-4 text-gray-300">
-                            <div>
+                        <h3 className="text-xl text-center text-red-600 font-bold mb-4">Work Experience</h3>
+                        <div className="space-y-4 text-gray-400">
+                            <div className="text-center">
                                 <h4 className="font-semibold">Currently a Student</h4>
                                 <p>Gaining hands-on experience through projects and internships.</p>
                             </div>

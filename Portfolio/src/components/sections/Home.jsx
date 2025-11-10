@@ -3,7 +3,7 @@ export const Home = () => {
     <section id="home" className="min-h-screen flex items-center justify-center relative">
 
       <div className="text-center z-10 px-4">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-blue-500 to-amber-600 bg-clip-text text-transparent leading-right">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-red-500 to-amber-600 bg-clip-text text-transparent leading-right">
           Hi, I'm Abdullah Salman
         </h1>
 

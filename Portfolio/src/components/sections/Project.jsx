@@ -12,7 +12,7 @@ export const Project = () => {
                     Featured Projects
                 </h2>
 
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center">
                     <div
                         className="p-6 rounded-xl border border-white/10 
